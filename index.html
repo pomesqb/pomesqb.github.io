@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Personal Assistant</title>
+<style>
+body{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;max-width:720px;margin:3rem auto;padding:0 1.25rem;line-height:1.75;color:#222}
+h1{font-size:1.75rem;margin-bottom:.25rem}
+.sub{color:#666;margin-top:0}
+h2{font-size:1.15rem;margin-top:2rem}
+ul{padding-left:1.25rem}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.9rem;color:#666}
+a{color:#1558d6}
+</style>
+</head>
+<body>
+<h1>Hermes Personal Assistant</h1>
+<p class="sub">A self-hosted personal automation assistant for a single user.</p>
+
+<h2>What this app does</h2>
+<p>Hermes Personal Assistant is a private, self-hosted assistant that runs on the
+owner's own server. It is operated by and used by one single person - its owner -
+and is not offered as a service to any other user.</p>
+<p>It helps its owner with everyday personal administration by connecting to that
+same owner's Google account:</p>
+<ul>
+  <li><strong>Gmail</strong> - read, search and send the owner's own mail, and save attachments such as statements and receipts.</li>
+  <li><strong>Google Calendar</strong> - create, read and update the owner's own events and reminders.</li>
+  <li><strong>Google Drive</strong> - store and retrieve the owner's own files, including automated weekly backups of the assistant's configuration.</li>
+  <li><strong>Google Docs / Sheets</strong> - read and write the owner's own documents and spreadsheets for personal bookkeeping and reports.</li>
+  <li><strong>Google Tasks</strong> - manage the owner's own to-do items.</li>
+  <li><strong>Google Contacts (read only)</strong> - look up the owner's own contacts when composing mail or invitations.</li>
+</ul>
+
+<h2>How it works</h2>
+<p>The owner authorises the application once through Google's standard OAuth 2.0
+consent flow. The resulting credentials are stored only on the owner's own
+server and are used solely to act on the owner's behalf, at the owner's request.
+There is no shared backend, no multi-user account system, and no third party
+involved.</p>
+
+<h2>Privacy</h2>
+<p>The application's handling of Google user data is described in full in the
+<a href="./privacy.html">Privacy Policy</a>.</p>
+
+<footer>
+<p><a href="./privacy.html">Privacy Policy</a></p>
+<p>Contact: <a href="mailto:ziyangastrea@gmail.com">ziyangastrea@gmail.com</a></p>
+</footer>
+</body>
+</html>
